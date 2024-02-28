@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <main>
+            
+    <header id="home">
+            
+        <nav>
+            <div class="wrapper container">
+                <a class='logo' href='/'>
+                    <img src="./imgs/logo/logo-orange.png" id="logo" >
+                </a>
+                <ul>
+                    <li id="tohome"><a href='/'>home</a></li>
+                    <!-- <li id="toabout"><a href='/'>about </a></li> -->
+                    <li id="toexperience"><a href='/projects.html'>projects</a></li>
+                    <!-- <li id="toservices"><a href='/'>services</a></li> -->
+                    <!-- <li><a href="#">portfolio</a></li> -->
+                    <li id="tocontact"  class="active"><a href='/contact.html'>contact</a></li>
+                    <li><input class="dark-mode-toggle" type="checkbox"></li>
+                </ul>
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ========== start the contact section ========== -->
+    <section class="contact section" id="contact">
+        <!-- the special heading -->
+        <div class="main-heading">
+            <h1>
+                contact
+            </h1>
+            <h3>
+                contact me
+            </h3>
+        </div>
+        <!-- the end of the special heading -->
+        <!-- <h2>get in touch</h2> -->
+        <div class="container contact-content">
+
+            <form action="https://formspree.io/f/xrgvwpkw" method="POST" id="my-form">
+                <h3>send me a message:</h3>
+                <input type="text" placeholder="Your Name" name="name" > <br>
+                <input type="email" placeholder="Your Email" name="email" > <br>
+                <textarea placeholder="Message" id="" name="message" ></textarea>
+                <Button class="btn" id="form-btn">Send</Button>
+                <div class="submition-alert">
+                    <p id="my-form-status">form been sent and thank you</p> 
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </form>
+
+
+
+            <div class="info">
+                <h3>get in touch:</h3>
+                <div class="name">
+                    <i class="fa-solid fa-user"></i> name <br>
+                    <p> Zakaria Elkoh </p>
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i> email <br> 
+                    <a href="mailto:zakaria.developer00@gmail.com">
+                        zakaria.developer00@gmail.com
+                    </a>
+                </div>
+                <div class="number">
+                    <i class="fa-solid fa-phone"></i> phone <br>
+                    <a href="tel:0682453633">+2126 8245-3633 </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== the end of the contact section ========== -->
+
+    <!-- ========== the footer ========== -->
+    <footer>
+        <div class="social-media">
+            <a href="https://github.com/zakaria-elkoh" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/zakaria-elkoh/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/elkoh00/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <hr class="container">
+        <p>
+            2023 &copy; All Right Reserved
+        </p>
+    </footer>
+    <!-- ========== the end of the footer ========== -->
+
+    </main>
+
+
+    <script src="./js/menu-dark.js"></script>
+    <script src="./js/formSubmition.js"></script>
+</body>
+</html>
