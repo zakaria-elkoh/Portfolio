@@ -990,8 +990,8 @@ nav ul li input:checked ~ i {
     padding: 8px 6px;
     text-align: center;
     border-radius: 20px;
-    font-size: .9rem;
-    width: 320px;
+    font-size: .83rem;
+    width: 350px;
 }
 
 .exp-box .text h3 {
@@ -1001,6 +1001,7 @@ nav ul li input:checked ~ i {
 .exp-box .text p {
     margin: 12px 0;
     color: var(--p-clr);
+    line-height: 1.4;
     font-size: clamp(.9rem, 3vw, 1rem);
 }
 
