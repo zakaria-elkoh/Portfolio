@@ -681,13 +681,13 @@ nav ul li input:checked ~ i {
 .about .content .skills span {
     background-color: var(--card-bg-clr);
     color: var(--dark-white-clr);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.08);
     padding: 6px 14px;
     margin: 6px 2px; 
     border-radius: 20px;
     display: inline-block;
     transition: .3s;
-    border: 1px solid transparent;
+    border: 1.5px solid rgba(128, 128, 128, 0.187);
 }
 
 .about .content .skills span:hover {
