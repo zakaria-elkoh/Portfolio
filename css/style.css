@@ -837,7 +837,8 @@ nav ul li input:checked ~ i {
     padding: 6px 12px;
     border-radius: 20px;
     margin: 8px 4px 4px 0;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(128, 128, 128, 0.196);
 }
 
 .projects .box .text .btns {
