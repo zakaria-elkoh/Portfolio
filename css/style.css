@@ -152,7 +152,7 @@ p {
 .container {
     max-width: 1100px;
     padding: 0 20px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 
@@ -1010,8 +1010,30 @@ nav ul li input:checked ~ i {
     font-size: clamp(.9rem, 3vw, 1rem);
 }
 
-.exp-box .text span {
+.exp-box h3 {
+    text-transform: capitalize;
     color: var(--heading-clr);
+    opacity: .6;
+    margin-block: 18px 4px;
+}
+
+.exp-box span {
+    background-color: var(--card-bg-clr);
+    color: var(--dark-white-clr);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin: 8px 4px 4px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid rgba(128, 128, 128, 0.196); */
+}
+
+.exp-box .text p {
+    color: var(--heading-clr);
+    margin-top: 30px;
+    margin-left: auto;
+    width: fit-content;
+    /* display: block; */
 }
 
 @media screen and (max-width: 852px) {
