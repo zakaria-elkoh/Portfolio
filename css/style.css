@@ -1001,6 +1001,7 @@ nav ul li input:checked ~ i {
 
 .exp-box .text h3 {
     color: var(--heading-clr);
+    margin: 8px;
 }
 
 .exp-box .text p {
